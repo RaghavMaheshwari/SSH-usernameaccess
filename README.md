@@ -1,9 +1,13 @@
 # SSH-usernameaccess
 Problem Statement: 
+
 Create an automation to enable SSH based remote access on 5 different Ubuntu 18.04 servers for a user. Once the automation is run, it should expect username as a command line argument and enable the access for that username. Make necessary assumptions on your own
 
+
+
 Now there are two parts of the problem. Let’s break it one by one.
-Enabling SSH :- 
+Enabling SSH :-
+
 “SSH is typically used to log into a remote machine and execute commands, but it also supports tunneling, forwarding TCP ports and X11 connections; it can transfer files using the associated SSH file transfer (SFTP) or secure copy (SCP) protocols.SSH uses the client-server model “. Thus in simple words, one could talk to another system, while working on one system, via SSH.
 We want SSH to be enabled automatically while we start the system. This can be done in multiple ways. Some ways re :
 •	In the linux command line window, go to the cron tab. 
@@ -18,6 +22,7 @@ in that, write the command to start the ssh and save it.
 
 
 Enabling the Access :-
+
 •	If you chose the second option to enable the SSH, then add the contents of the public key file into ~/.ssh/authorized_keys on the remote site (the file should be mode 600). 
 If you are a developer and you want to access debian.org systems with such a key, it's possible to have the developer database propagate your key to all of the debian.org machines.
 
