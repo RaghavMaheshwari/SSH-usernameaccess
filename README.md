@@ -6,6 +6,8 @@ Create an automation to enable SSH based remote access on 5 different Ubuntu 18.
 
 
 Now there are two parts of the problem. Let’s break it one by one.
+
+
 Enabling SSH :-
 
 “SSH is typically used to log into a remote machine and execute commands, but it also supports tunneling, forwarding TCP ports and X11 connections; it can transfer files using the associated SSH file transfer (SFTP) or secure copy (SCP) protocols.SSH uses the client-server model “. Thus in simple words, one could talk to another system, while working on one system, via SSH.
@@ -18,6 +20,8 @@ in that, write the command to start the ssh and save it.
 •	Create an RSA Authentication. “RSA (Rivest–Shamir–Adleman) is one of the first public-key cryptosystems and is widely used for secure data transmission”. (Recommended) 
 
 •	Write a simple script to enable SSH. Save the script in the systemd folder, so that it runs with top priority when the system starts.
+
+
 
 
 
