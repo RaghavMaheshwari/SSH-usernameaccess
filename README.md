@@ -37,3 +37,13 @@ To install keychain in Ubuntu/Debian :
 
 Thus granting the user access without a password can be done by private – public key techniques. RSA and DSA are such examples. One could also create a web page for this as well. it asks for login, then allows logged in user to upload the  public key. On submit, the key is uploaded from the frontend to backend. Backend code has access to the servers. Backend uploads the public key to servers, and signals the frontend. 		
 
+
+
+
+
+
+References :
+https://www.debian.org/
+https://www.ibm.com/support/knowledgecenter/
+https://www.cyberciti.biz/faq/
+
