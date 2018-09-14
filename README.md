@@ -79,6 +79,19 @@ https://www.debian.org/
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
 Problem Statement: 
 
 Create an automation to enable SSH based remote access on 5 different Ubuntu 18.04 servers for a user. Once the automation is run, it should expect username as a command line argument and enable the access for that username. Make necessary assumptions on your own
